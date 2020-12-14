@@ -22,6 +22,7 @@ public class GitDemo {
 	@Test(priority = 4)
 	public void codeChange() {
 		System.out.println("Done functionality level changes");
+		System.out.println("Display result");
 	}
 
 }
