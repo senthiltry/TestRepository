@@ -19,4 +19,9 @@ public class GitDemo {
 		System.out.println("Updated successfully");
 	}
 
+	@Test(priority = 4)
+	public void codeChange() {
+		System.out.println("Done functionality level changes");
+	}
+
 }
