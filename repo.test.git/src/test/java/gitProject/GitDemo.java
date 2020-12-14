@@ -14,4 +14,9 @@ public class GitDemo {
 		System.out.println("Box Closed");
 	}
 
+	@Test(priority = 3)
+	public void boxUpdate() {
+		System.out.println("Updated successfully");
+	}
+
 }
